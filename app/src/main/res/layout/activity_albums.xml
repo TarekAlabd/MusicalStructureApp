@@ -16,10 +16,11 @@
         tools:context=".MainActivity" />
 
     <Button
+        android:id="@+id/home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="Home"
-        android:textSize="18sp"/>
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/home"
+        android:textSize="@dimen/home_size"/>
 
 </LinearLayout>

@@ -10,10 +10,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Esma'ny - Hamza Namera"
+        android:text="@string/esma_ny_hamza_namera"
         android:layout_gravity="center_horizontal"
         android:layout_margin="15dp"
-        android:textSize="20sp"
+        android:textSize="@dimen/title_size"
         android:textStyle="bold"/>
 
     <ImageView
@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the main screen for listening to musics and songs. "
+        android:text="@string/this_is_the_main_screen_for_listening_to_musics_and_songs"
         android:layout_margin="15dp"/>
 
     <LinearLayout
@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="0:00"
+            android:text="@string/_0_00"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
             android:layout_weight="1"/>
@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="2:45"
+            android:text="@string/_2_45"
             android:layout_gravity="center_horizontal"
             android:layout_margin="15dp"
             android:layout_weight="1"/>
@@ -79,5 +79,13 @@
             android:layout_weight="1"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/home"
+        android:textSize="@dimen/home_size"/>
 
 </LinearLayout>

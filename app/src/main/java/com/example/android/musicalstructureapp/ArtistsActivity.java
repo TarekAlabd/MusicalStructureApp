@@ -1,8 +1,11 @@
 package com.example.android.musicalstructureapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -12,6 +15,18 @@ public class ArtistsActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artists);
+
+        //find the view that shows the Main Screen
+        Button home = (Button) findViewById(R.id.home);
+
+        //set a click listner on that view
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homeIntent = new Intent(ArtistsActivity.this, MainActivity.class);
+                startActivity(homeIntent);
+            }
+        });
 
         //create a list of titles
         //albumName (in artists) : Singer Name

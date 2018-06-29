@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
+    <string name="welcome">We wish you a happy tour ♥</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="store">Store</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="home">Home</string>
+    <string name="esma_ny_hamza_namera">Esma\'ny - Hamza Namera</string>
+    <string name="this_is_the_main_screen_for_listening_to_musics_and_songs">This is the main screen for listening to musics and songs.</string>
+    <string name="_0_00">0:00</string>
+    <string name="_2_45">2:45</string>
 </resources>

@@ -13,8 +13,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:text="We wish you a happy tour ♥"
+            android:textSize="@dimen/welcome_size"
+            android:text="@string/welcome"
             android:layout_gravity="center_horizontal"
             android:textColor="#000"/>
         <LinearLayout
@@ -25,7 +25,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:text="Albums"
+                android:text="@string/albums"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
                 android:textSize="25sp"
@@ -33,9 +33,9 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:text="Artists"
+                android:text="@string/artists"
                 android:layout_weight="1"
-                android:textSize="25sp"
+                android:textSize="@dimen/artists_size"
                 android:id="@+id/artists"/>
         </LinearLayout>
 
@@ -46,17 +46,17 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:text="Store"
+                android:text="@string/store"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
-                android:textSize="25sp"
+                android:textSize="@dimen/store_size"
                 android:id="@+id/store"/>
             <Button
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:text="Now Playing"
+                android:text="@string/now_playing"
                 android:layout_weight="1"
-                android:textSize="23sp"
+                android:textSize="@dimen/now_playing_size"
                 android:id="@+id/now_playing"/>
         </LinearLayout>
 

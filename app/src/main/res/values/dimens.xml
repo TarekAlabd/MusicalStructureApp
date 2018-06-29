@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_size">25sp</dimen>
+    <dimen name="now_playing_size">23sp</dimen>
+    <dimen name="store_size">25sp</dimen>
+    <dimen name="artists_size">25sp</dimen>
+    <dimen name="home_size">18sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+</resources>
